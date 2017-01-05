@@ -1,0 +1,27 @@
+{
+  "name": "canvas-skeleton",
+  "version": "1.0.0",
+  "description": "NPM based skeleton project for rapid canvas prototyping",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live",
+    "build": "browserify index.js | uglifyjs -cm > bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotKokott/canvas-skeleton.git"
+  },
+  "author": "Christian Kokott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotKokott/canvas-skeleton/issues"
+  },
+  "homepage": "https://github.com/dotKokott/canvas-skeleton#readme",
+  "devDependencies": {
+    "budo": "^9.4.1"
+  },
+  "dependencies": {
+    "browserify": "^13.3.0",
+    "canvas-testbed": "^1.0.4"
+  }
+}
